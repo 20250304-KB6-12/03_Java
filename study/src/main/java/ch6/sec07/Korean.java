@@ -8,6 +8,7 @@ public class Korean {
   String ssn;
 
   /* 생성자 자동 완성 방법 : alt + insert -> 생성자 선택 */
+  public Korean() {} // 기본 생성자
 
   public Korean(String nation, String name, String ssn) {
     this.nation = nation;
