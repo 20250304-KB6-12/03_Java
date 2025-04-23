@@ -1,4 +1,4 @@
-package adapter.adapter1;
+package adapter.adapter2;
 
 /* 외부에서 제공되는 클래스 - 코드 변경 불가*/
 public class Banner {
