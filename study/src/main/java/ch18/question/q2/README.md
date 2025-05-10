@@ -4,9 +4,8 @@
 학생별 성적(국어, 영어, 수학)을 관리하고 통계를 계산하는 시스템 구현하기
 
 ## 포인트
-1. Files.lines()를 사용한 파일 스트림 처리
-2. BufferedWriter/BufferedReader 사용
-3. CSV 파일 형식 활용 (쉼표로 구분된 값)
+1. BufferedWriter/BufferedReader 사용
+2. CSV 파일 형식 활용 (쉼표로 구분된 값)
 
 
 ## 요구사항
@@ -21,12 +20,11 @@
 
 3. **searchStudent() 메서드**
    - 이름으로 학생을 검색하여 성적 정보 출력
-   - Stream API를 활용하여 구현
 
 4. **calculateStatistics() 메서드**
    - 과목별 최고/최저/평균 점수 계산
    - 전체 학생의 평균 점수 계산
-   - IntSummaryStatistics 활용
+
 
 ## 실행 예시
 ```
@@ -64,9 +62,3 @@
 
 전체 학생 평균 점수: 88.00
 ```
-
-
-## 주의사항
-- 파일 경로는 `C:/Temp/scores.csv` 사용
-- Files와 Stream API를 적극 활용하여 코드 간결화
-- try-with-resources 구문으로 리소스 관리

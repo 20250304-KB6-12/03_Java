@@ -7,8 +7,8 @@ import java.io.OutputStream;
 
 public class FileOutputStreamExample {
 	public static void main(String[] args) throws Exception {
-		String originalFileName = "C:/Temp/test.gif";
-		String targetFileName = "C:/Temp/test2.gif";
+		String originalFileName = "C:/Temp/test.jpg";
+		String targetFileName = "C:/Temp/test2.jpg";
 		
 		InputStream is = new FileInputStream(originalFileName);
 		OutputStream os = new FileOutputStream(targetFileName);

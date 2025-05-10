@@ -9,14 +9,13 @@ public class WriteExample {
 		try {
 			OutputStream os = new FileOutputStream("C:/Temp/test1.db");
 		
-			byte a = 65;
-			byte b = 66;
-			byte c = 67;
+			byte a = 65; // 'A'
+			byte b = 66; // 'B'
+			byte c = 67; // 'C'
 
 			os.write(a);
 			os.write(b);
 			os.write(c);
-
 
 			os.flush();
 			os.close();
