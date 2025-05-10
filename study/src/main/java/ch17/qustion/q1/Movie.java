@@ -1,4 +1,13 @@
 package ch17.qustion.q1;
 
-public class Movie {
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class Movie{
+  private String title;
+  private String genre;
+  private int releaseYear;
+  private double rating;
 }
